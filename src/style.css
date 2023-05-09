@@ -24,6 +24,15 @@ nav ul {
   justify-content: space-between;
 }
 
+nav ul button {
+  background: none;
+  color: #fff;
+  border: none;
+}
+
+nav ul button:hover {
+  text-decoration: underline;
+}
 body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.4),
