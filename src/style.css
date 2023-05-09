@@ -65,3 +65,25 @@ footer {
   padding: 0.25rem;
   text-align: center;
 }
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 1.5em;
+}
